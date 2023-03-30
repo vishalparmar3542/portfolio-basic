@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/pics/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+  <!--  
+    nav
+  -->   
+  <ul class="ulist" ID="ulist" type="none" >
+    <div class="nav">
+     <button onclick="functionToExecute()"  ><img src="/pics/menu-burger.png" width="20px" alt=""></button>
+   </div>
+     <li class="list l1">
+      <a href="#"> <img src="pics/bussiness-man.png" width= "35px" alt="img">
+      </a>
+     </li>
+      <div class="main"> 
+     <li class="list l2"id="list ">
+       what? now
+     </li>
+     <li class="list  l3" id="list">horse ride</li>
+     <li class="list  l4" id="list">do nothing</li>
+     <li class="list  l5" id="list">just chill</li>
+     <li class="list  l6 "id="list">
+       <a href="/index.html" >About me</a>
+      </li>
+      <div>
+    
+   </ul>
+   
+
+<!--
+  nav end
+-->
+
+
+
+    <div class="first">
+        <img class="first-img" src="pics/cactus.png" alt="" class="z-index:0">
+ 
+    </div>
+    <div class="top">
+        <h1>
+    I'm Vishal.
+    </h1>
+     <h2>a <span style="text-decoration: underline;">pro</span>gramer</h2>
+    </div>
+    <div class="container1">
+    <img src="pics/cloud.png"  alt="">
+
+</div>
+<div class="container3">
+    <img src="pics/mountain.png"  width="90%" height="90%" alt="">
+</div>
+<div class="middle-container">
+    <div class="profile">
+      <img src="pics/bussiness-man.png" alt="" width="200px" >
+      <h2>Hello.</h2>
+      <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-1-img" src="pics/marker.png "  width="300px" alt="">
+        <h3>Lorem & Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-2-img" src="pics/cactus.png" alt="" width="300px">
+        <h3>Lorem Ipsum Dolor</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+    </div>
+    <hr  >
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p><br>
+      <a class="btn" href="mailto:vishalparmar3542@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/vishal-parmar-b97159225/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="#">Website</a>
+    <p class="copyright">© Vishal Parmar @ CStart.</p>
+  </div>
+    
+  <script>
+    
+    function functionToExecute()
+    {   var li=document.getElementsByClassName('list');
+                 
+    if(li[0].style.display==0)
+              {
+               
+                for (let i = 0; i < li.length; i++) {
+                 
+                 li[i].style.display="block";
+                    
+                 
+                }
+              }
+
+       var gt= document.getElementsByClassName('main');
+          gt[0].style.flexDirection="column";
+       gt[0].style.marginTop="300px";
+
+    }
+  
+ </script>
+
+</body>
+</html>
